@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is it a triangle?</title>
+    <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <nav>
+        <a href="/index.html" class="active-link">Is it a Triangle?</a>
+        <a href="/hypo.html">Calculate Hypotenuse</a>
+        <a href="/quiz.html">Triangle Quiz</a>
+        <a href="/area.html">Area Of a Triangle</a>
+    </nav>
+
+    <div class="center">
+        <h1>Is it a Triangle?</h1>
+
+
+
+        <p class="para">Enter angle in the feilds and check whether it form a triangle or not.</p>
+
+
+        <div class="divs">
+            <label for="angle1">Angle1:</label>
+            <input class="angle-input" type="number" min="0" oninput="validity.valid||(value='')" />
+        </div>
+
+        <div class="divs">
+            <label for="angle2">Angle2:</label>
+            <input class="angle-input" type="number" min="0" oninput="validity.valid||(value='')" />
+        </div>
+
+        <div class="divs">
+            <label for="angle3">Angle3:</label>
+            <input class="angle-input" type="number" min="0" oninput="validity.valid||(value='')" />
+        </div>
+
+        <button id="btn">Check</button>
+
+        <p id="output"></p>
+    </div>
+
+    <script src="/index.js"></script>
+
+</body>
+
+</html>

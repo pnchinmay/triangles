@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <a href="/index.html">Is it a Triangle?</a>
+        <a href="/hypo.html">Calculate Hypotenuse</a>
+        <a href="/quiz.html" class="active-link">Triangle Quiz</a>
+        <a href="/area.html">Area Of a Triangle</a>
+    </nav>
+
+
+    <h1>Triangle Quiz</h1>
+    
+    <P class="para"> Answer all the question then click on Check button to check your score</P>
+
+    <form class="quiz-form center">
+
+        <div class="container">
+            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label><input type="radio" name="question1" value="45°" />45°</label>
+            <label><input type="radio" name="question1" value="60°" />60° </label>
+            <label><input type="radio" name="question1" value="90°" />90°</label>
+        </div>
+
+        <div class="container">
+            <p> If a triangle has angles 45°, 45°, 90°. Is it an obtuse angled triangle?</p>
+            <label><input type="radio" name="question2" value="Yes" />Yes</label>
+            <label><input type="radio" name="question2" value="No" />No</label>
+        </div>
+
+        <div class="container">
+            <p> If a triangle has angles 25°, 75°, 80°. Is it an acute angled triangle?</p>
+            <label><input type="radio" name="question3" value="Yes" />Yes</label>
+            <label><input type="radio" name="question3" value="No" />No</label>
+        </div>
+
+        <div class="container">
+            <p>If a triangle has sides of 2cm, 3cm, 4cm, what is the type of triangle?</p>
+            <label><input type="radio" name="question4" value="Scalene" />Scalene</label>
+            <label><input type="radio" name="question4" value="Isosceles" />Isosceles</label>
+            <label><input type="radio" name="question4" value="Equilateral" />Equilateral</label>
+        </div>
+
+        <div class="container">
+            <p> If all three angles are exactly the same measure, how big is each angle? (Hint: x + x + x = 180°)</p>
+            <label><input type="radio" name="question5" value="50°" />50°</label>
+            <label><input type="radio" name="question5" value="60°" />60° </label>
+            <label><input type="radio" name="question5" value="70°" />70°</label>
+        </div>
+    </form>
+    <div class="center">
+    <button id="btn">Check</button>
+    <p id="output" class="para"></p>
+</div>
+
+    <script src="/quiz.js"></script>
+</body>
+
+</html>

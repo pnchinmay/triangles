@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculating Hypotenuse</title>
+    <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <a href="/index.html">Is it a Triangle?</a>
+        <a href="/hypo.html" class="active-link">Calculate Hypotenuse</a>
+        <a href="/quiz.html">Triangle Quiz</a>
+        <a href="/area.html">Area Of a Triangle</a>
+    </nav>
+
+    <h1>Calculate Hypotenuse</h1>
+    <div class="center">
+        <div class="para" style="border: 1px solid; padding-top: 2rem; border-radius: 00.3rem;">Area of hypotenuse =
+            sqrt(a²+b²)</div>
+
+
+        <div class="ang ang1">
+            <label>a=</label>
+            <input class="sides" type="number" min="0" oninput="validity.valid||(value='')" />
+        </div>
+
+        <div class="ang">
+            <lable>b=</lable>
+            <input class="sides" type="number" min="0" oninput="validity.valid||(value='')" />
+        </div>
+
+        <button id="btn">Check</button>
+
+        <p id="output">
+
+        </p>
+
+
+    </div>
+
+
+
+
+    <script src="/hypo.js"></script>
+
+</body>
+
+</html>

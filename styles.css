@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+:root {
+   --primary-color: #60A5FA;
+}
+
+nav{
+ background-color: var(--primary-color);
+ padding: 2rem;
+}
+
+a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+.active-link {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.center {
+    max-width: 600px;
+    margin: auto;
+}
+
+#output {
+    padding: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+h1{
+    padding: 1.5rem;
+}
+
+.para {
+   font-weight: bolder;
+   font-size: larger;
+   padding-bottom: 2.5rem;
+}
+
+button {
+    padding: 1rem;
+    background: var(--primary-color);
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+
+}
+ .divs input{
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 90%;
+    margin-bottom: 2rem;
+ }
+
+ .divs label{
+     font-size: large;
+     font-weight: bold;
+ }
+
+ .container {
+    padding: 1rem;
+    margin: 2rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    
+}
+
+.ang{
+    padding: 0.3rem;
+    margin: 1.5rem;
+}
+
+.ang1{
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.ang {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.ang input{
+    padding: 0.3rem 3rem;
+    border-radius:0.2rem;
+}
+
